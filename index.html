@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Інтернет-магазин</title>
+</head>
+<header>
+    <div class="container">
+        <h1>Магазин для геймерів</h1>
+    </div>
+</header>
+
+<main class="container">
+    <section>
+        <h2>Про наш магазин</h2>
+        <p>Ми пропонуємо широкий асортимент товарів за доступними цінами та великими знижками. Наші продукти проходять строгий контроль якості, щоб забезпечити вас найкращим обслуговуванням.</p>
+    </section>
+
+    <section>
+        <h2>Наші продукти</h2>
+        <div class="product">
+            <img src="https://images.prom.ua/4946208115_w600_h600_4946208115.jpg" alt="Продукт 1">
+            <div>
+                <h3>Комп'ютерне крісло</h3>
+                <p>Ціна: 7000 грн</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://cdn.lifehacker.ru/wp-content/uploads/2024/06/Defender_Striker_Rainbow_1719488000.jpg" alt="Продукт 2">
+            <div>
+                <h3>Клавіатура</h3>
+                <p>Ціна: 3000 грн</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://gamehall.com.ua/wp-content/uploads/2022/06/cf1g1sedlir81.jpg" alt="Продукт 3">
+            <div>
+                <h3>Монітор</h3>
+                <p>Ціна: 1500 грн</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Контактна інформація</h2>
+        <p>Ви можете зв’язатися з нами через електронну пошту:</p>
+        <p><a href="mailto:info@shop.com">info@shop.com</a></p>
+    </section>
+
+    <section>
+        <h2>Відгуки</h2>
+        <form class="contact-form" action="submit_feedback.php" method="POST">
+            <input type="text" name="name" placeholder="Ваше ім'я" required>
+            <input type="email" name="email" placeholder="Ваша електронна пошта" required>
+            <textarea name="message" rows="5" placeholder="Ваше повідомлення" required></textarea>
+            <button type="submit">Відправити</button>
+        </form>
+        <p>Ми цінуємо ваші відгуки!</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Інтернет-магазин для геймерів. Усі права захищені.</p>
+</footer>
+</body>
+</html>
